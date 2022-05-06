@@ -1,1 +1,1 @@
-Тестовое задание - [ТЗ](https://https://roox.notion.site/frontend-32b79baef66c4ca4a27f6f76e01a7dd2)
+Тестовое задание - [ТЗ](https://roox.notion.site/frontend-32b79baef66c4ca4a27f6f76e01a7dd2)
