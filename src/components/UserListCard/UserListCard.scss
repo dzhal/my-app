@@ -1,0 +1,28 @@
+@import '../../sass-styles/variables.scss';
+
+.UserListCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 7px;
+  width: 420px;
+  height: 73px;
+  font-size: 11px;
+  background: #f3f3f3;
+  border-radius: 8px;
+  font-family: $font;
+  padding: 10px;
+  color: #a3a3a3;
+  span {
+    color: #000000;
+  }
+  &_moreInfo {
+    position: absolute;
+    color: #4b51ef;
+    font-size: 12px;
+    left: 347px;
+    top: 51px;
+    cursor: pointer;
+  }
+}

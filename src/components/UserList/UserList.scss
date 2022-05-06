@@ -1,0 +1,27 @@
+@import '../../sass-styles/variables.scss';
+
+.UserList {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  gap: 14px;
+  width: 100%;
+  max-width: 513px;
+  max-height: 100vh;
+  margin-top: 19px;
+  margin-left: 34px;
+  margin-bottom: 19px;
+  margin-right: 34px;
+  h1 {
+    font-family: $font;
+    font-size: $sizeTitle;
+    font-weight: 700;
+  }
+  &_counter {
+    display: flex;
+    justify-content: flex-end;
+    font-family: $font;
+    font-size: 12px;
+    margin-right: 12px;
+  }
+}

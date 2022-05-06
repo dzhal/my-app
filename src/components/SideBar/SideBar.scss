@@ -1,0 +1,25 @@
+@use 'sass:map';
+@import '../../sass-styles/variables.scss';
+.Container {
+  height: 100vh;
+  width: $mainWidth;
+  margin: 0 auto;
+  display: flex;
+}
+.SideBar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 152px;
+  min-height: 100%;
+  font-family: $font;
+  font-size: $sizeSideBar;
+  background-color: $bgSideBar;
+  padding-top: 35.17px;
+  padding-left: 20.27px;
+  &_ButtonPrimary {
+    @extend %button;
+    color: map.get($buttonTextColors, 'primary');
+    background-color: map.get($buttonBgColors, 'primary');
+  }
+}
